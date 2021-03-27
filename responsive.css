@@ -51,3 +51,21 @@
       }
 /*------------- HEADER -------------*/
 }
+
+/*--------------Testimonial--------------*/
+
+/* Untuk Tablets */
+@media (max-width: 1000px) {
+    .testimonial {
+      width: 50%;
+      margin-bottom: 50px;
+    }
+  }
+/* Untuk Smartphone */
+@media(max-width: 670px) {
+  .testimonial {
+      width: 100%;
+      margin-bottom: 50px;
+    }   
+}
+/*--------------Testimonial--------------*/
