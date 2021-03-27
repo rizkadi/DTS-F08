@@ -34,6 +34,44 @@
     margin-bottom: 5px;
 }
 
+/*--------------Testimonial--------------*/
+.testimonial-wrapper {
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+  .testimonial {
+    float: left;
+    width: 25%;
+}
+.heading {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: #5f5d60;
+}
+.testimonial-icon {
+    position: relative;
+}
+.testimonial-icon img{
+    position: relative;
+    max-width:100px;
+    height:auto;
+}
+.text-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #b3aeb5;
+}
+.clear {
+    clear: left;
+}
+
+/*--------------Testimonial--------------*/
+
 .top-wrapper p {
     /* opacity: 0.7; */
     margin-bottom: 3px;
