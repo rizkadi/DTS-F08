@@ -21,10 +21,12 @@
 /*--------------- HEADER --------------- */
 .top-wrapper {
     padding: 180px 0 100px 0;
-    background-image: url(https://i.gifer.com/4KL.gif);
-    background-size: cover;
+    background-image: url(https://www.ecodu.id/img/banner_img.gif);
+    background-repeat: no-repeat;
+    background-size: 800px auto;
+    background-position: right;
     color:#0c2e60 ;
-    text-align: left;
+    
 }
 
 .top-wrapper h1 {
@@ -32,49 +34,13 @@
     font-size: 45px;
     letter-spacing: 5px;
     margin-bottom: 5px;
+    text-align: left;
 }
-
-/*--------------Testimonial--------------*/
-.testimonial-wrapper {
-    padding-bottom: 80px;
-    padding-left: 5%;
-    padding-right: 5%;
-    background-color: #f7f7f7;
-    text-align: center;
-  }
-  .testimonial {
-    float: left;
-    width: 25%;
-}
-.heading {
-    padding-top: 80px;
-    padding-bottom: 50px;
-    color: #5f5d60;
-}
-.testimonial-icon {
-    position: relative;
-}
-.testimonial-icon img{
-    position: relative;
-    max-width:100px;
-    height:auto;
-}
-.text-contents {
-    width: 80%;
-    display: inline-block;
-    margin-top: 15px;
-    font-size: 15px;
-    color: #b3aeb5;
-}
-.clear {
-    clear: left;
-}
-
-/*--------------Testimonial--------------*/
 
 .top-wrapper p {
     /* opacity: 0.7; */
     margin-bottom: 3px;
+    text-align: left;
 }
 
 .btn-wrapper {
@@ -159,6 +125,45 @@ header {
     display:none;
 }
 /*--------------- HEADER --------------- */
+
+/*--------------Testimonial--------------*/
+.testimonial-wrapper {
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+  .testimonial {
+    float: left;
+    width: 25%;
+}
+.heading {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: #5f5d60;
+}
+.testimonial-icon {
+    position: relative;
+}
+.testimonial-icon img{
+    position: relative;
+    max-width:100px;
+    height:auto;
+}
+.text-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #b3aeb5;
+}
+.clear {
+    clear: left;
+}
+
+/*--------------Testimonial--------------*/
+
 /*--------------- FOOTER --------------- */
 body {
     margin: 0;
