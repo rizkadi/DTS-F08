@@ -130,7 +130,23 @@ header {
     display:none;
 }
 /*--------------- HEADER --------------- */
-
+/*--------------- content --------------- */
+.lesson-wrapper {
+    padding: 80px 10px;
+    background-color: #f7f7f7;
+    text-align: center;
+    margin-bottom: 150px;
+  }
+  .lesson {
+    float: right;
+    width: 30%;
+}
+  
+.lesson img {
+    width: 125px;
+    height: 125px;
+}
+/*--------------- content --------------- */
 /*--------------Testimonial--------------*/
 .testimonial-wrapper {
     padding-bottom: 80px;
@@ -274,19 +290,3 @@ a {
 
 /*--------------- FOOTER --------------- */
 
-/*--------------- content --------------- */
-.lesson-wrapper {
-    padding: 80px 10px;
-    background-color: #f7f7f7;
-    text-align: center;
-    margin: 80px 0px;
-  }
-  .lesson {
-    float: right;
-    width: 30%;
-}
-  
-.lesson img {
-    width: 125px;
-    height: 125px;
-}
