@@ -273,12 +273,10 @@ a {
   }
   .lessons {
     float: left;
-    width: 25%;.lessons {
-    float: left;
-    padding: 0 15px;
+    width: 25%;
 }
   
 .lesson img {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
 }
