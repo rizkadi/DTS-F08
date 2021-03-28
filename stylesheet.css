@@ -179,18 +179,20 @@ a {
     background-color: #007bff;
     
     text-align: center;
-    color: white;
+    
 }
 
 .message-wrapper h2 {
     font-size: 32px;
     padding-top: 32px;
+    color: white;
 }
 
 .message-wrapper h3 {
     font-size: 24px;
     padding-top: 0px;
     padding-bottom: 15px;
+    color: white;
 }
 
 
