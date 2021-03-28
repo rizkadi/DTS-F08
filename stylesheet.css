@@ -264,7 +264,16 @@ a {
 /*--------------- FOOTER --------------- */
 
 /*--------------- content --------------- */
-.lesson {
+.lesson-wrapper {
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+  .lessons {
+    float: left;
+    width: 25%;.lessons {
     float: left;
     padding: 0 15px;
 }
