@@ -65,7 +65,7 @@
   
   /* -------------------------------------------Untuk Smartphone *--------------------------------------------*/
   @media(max-width: 670px) {
-  /*------------- HEADER -------------*/
+ /*------------- HEADER -------------*/
       .btn {
         width: 100%;
         text-align: center;
@@ -87,9 +87,18 @@
       }
 
       .header-right{
-        display:none;
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        padding: 12px 26px;
+        z-index: 1;
       }
-
+      .dropdown:hover .header-right {
+        display: block;
+        margin-top: 70px;
+      }
       .menu-icon{
         display:block;
       }
@@ -104,7 +113,8 @@
         line-height: 20px;
       }
       .fa{
-          display:block;
+        position: relative;
+        display: inline-block;
       }
 /*------------- HEADER -------------*/
 
