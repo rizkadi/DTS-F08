@@ -1,12 +1,27 @@
 /* Untuk Tablet */
-@media(max-width: 1000px) {
+@media(max-width: 1170px) {
 /*------------- HEADER -------------*/
-    top-wrapper h1 {
+   top-wrapper h1 {
         font-size: 32px;
     }
     
     .menu-icon{
         display:none;
+      }
+      .top-wrapper {
+        background-image: none;
+      }
+      .top-wrapper h1 {
+        text-align: center;
+      }
+      .top-wrapper p {
+        text-align: center;
+
+      }
+      .btn {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
       }
 
 /*------------- HEADER -------------*/
@@ -17,20 +32,26 @@
 /*------------- HEADER -------------*/
     .btn {
         width: 100%;
-      }
-      
-      .signup {
+        text-align: center;
         margin-bottom: 10px;
       }
       
       .top-wrapper {
-        text-align: left;
+        background-image: none;
+      }
+      .top-wrapper h1 {
+        text-align: center;
+      }
+      .top-wrapper p {
+        text-align: center;
       }
       
+      /* Tambahkan CSS untuk header-right */
       .header-right{
         display:none;
       }
       
+      /* Tambahkan CSS untuk menu-icon */
       .menu-icon{
         display:block;
       }
