@@ -1,29 +1,31 @@
 /*------------------------------------------------------- Untuk Tablet -----------------------------------------------------*/
 @media(max-width: 1170px) {
   /*------------- HEADER -------------*/
-     top-wrapper h1 {
-          font-size: 32px;
+    top-wrapper h1 {
+        font-size: 32px;
+    }
+    
+    .menu-icon{
+        display:none;
       }
-      
-      .menu-icon{
-          display:none;
-        }
-        .top-wrapper {
-          background-image: none;
-        }
-        .top-wrapper h1 {
-          text-align: center;
-        }
-        .top-wrapper p {
-          text-align: center;
-  
-        }
-        .btn {
-          width: 100%;
-          text-align: center;
-          margin-bottom: 10px;
-        }
-  /*------------- HEADER -------------*/
+      .top-wrapper {
+        background-image: none;
+      }
+      .top-wrapper h1 {
+        text-align: center;
+      }
+      .top-wrapper h2 {
+        text-align: center;
+      }
+      .top-wrapper p{
+        text-align: center;
+      }
+      .btn {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+      }
+/*------------- HEADER -------------*/
 
   /*--------------- CONTENT--------------- */
         .lesson {
@@ -65,42 +67,46 @@
   @media(max-width: 670px) {
   /*------------- HEADER -------------*/
       .btn {
-          width: 100%;
-          text-align: center;
-          margin-bottom: 10px;
-        }
-        
-        .top-wrapper {
-          background-image: none;
-        }
-        .top-wrapper h1 {
-          text-align: center;
-        }
-        .top-wrapper p {
-          text-align: center;
-        }
-        
-        .header-right{
-          display:none;
-        }
-        
-        .menu-icon{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+      }
+      
+      .top-wrapper {
+        background-image: none;
+        margin-top: -20%;
+      }
+      .top-wrapper h1 {
+        text-align: center;
+      }
+      .top-wrapper h2 {
+        text-align: center;
+      }
+      .top-wrapper p{
+        text-align: center;
+      }
+
+      .header-right{
+        display:none;
+      }
+
+      .menu-icon{
+        display:block;
+      }
+      
+      .top-wrapper h1 {
+        font-size: 24px;
+        line-height: 36px;
+      }
+      
+      .top-wrapper p {
+        font-size: 14px;
+        line-height: 20px;
+      }
+      .fa{
           display:block;
-        }
-        
-        .top-wrapper h1 {
-          font-size: 24px;
-          line-height: 36px;
-        }
-        
-        .top-wrapper p {
-          font-size: 14px;
-          line-height: 20px;
-        }
-        .fa{
-            display:block;
-        }
-  /*------------- HEADER -------------*/
+      }
+/*------------- HEADER -------------*/
 
   /*--------------- CONTENT--------------- */
       .lesson {
