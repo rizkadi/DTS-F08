@@ -1,151 +1,140 @@
-/* Untuk Tablet */
+/*------------------------------------------------------- Untuk Tablet -----------------------------------------------------*/
 @media(max-width: 1170px) {
-/*------------- HEADER -------------*/
-   top-wrapper h1 {
-        font-size: 32px;
-    }
-    
-    .menu-icon{
-        display:none;
-      }
-      .top-wrapper {
-        background-image: none;
-      }
-      .top-wrapper h1 {
-        text-align: center;
-      }
-      .top-wrapper p {
-        text-align: center;
-
-      }
-      .btn {
-        width: 100%;
-        text-align: center;
-        margin-bottom: 10px;
-      }
-
-/*------------- HEADER -------------*/
-}
-
-/* Untuk Smartphone */
-@media(max-width: 670px) {
-/*------------- HEADER -------------*/
-    .btn {
-        width: 100%;
-        text-align: center;
-        margin-bottom: 10px;
+  /*------------- HEADER -------------*/
+     top-wrapper h1 {
+          font-size: 32px;
       }
       
-      .top-wrapper {
-        background-image: none;
-      }
-      .top-wrapper h1 {
-        text-align: center;
-      }
-      .top-wrapper p {
-        text-align: center;
-      }
-      
-      /* Tambahkan CSS untuk header-right */
-      .header-right{
-        display:none;
-      }
-      
-      /* Tambahkan CSS untuk menu-icon */
       .menu-icon{
-        display:block;
+          display:none;
+        }
+        .top-wrapper {
+          background-image: none;
+        }
+        .top-wrapper h1 {
+          text-align: center;
+        }
+        .top-wrapper p {
+          text-align: center;
+  
+        }
+        .btn {
+          width: 100%;
+          text-align: center;
+          margin-bottom: 10px;
+        }
+  /*------------- HEADER -------------*/
+
+  /*--------------- CONTENT--------------- */
+        .lesson {
+          width: 50%;
+          margin-bottom: 50px;
+        }
+  /*--------------- CONTENT--------------- */
+
+  /*--------------- Fitur--------------- */
+  /*--------------- Fitur--------------- */
+
+  /*--------------Testimonial--------------*/
+        .testimonial {
+          width: 50%;
+          margin-bottom: 50px;
+        }
+  /*--------------Testimonial--------------*/
+
+  /*--------------- footer--------------- */
+        .footer-menu {
+          float:left;
+          width: 100%;
+          padding-left: 25px;
       }
-      
-      .top-wrapper h1 {
-        font-size: 24px;
-        line-height: 36px;
+
+      .message-footer {
+          height :100px;
       }
-      
-      .top-wrapper p {
-        font-size: 14px;
-        line-height: 20px;
+
+      .logo-footer {
+          width:100%;
+          padding-left: 25px;
       }
-      .fa{
-          display:block;
-      }
-/*------------- HEADER -------------*/
+
+  /*--------------- footer--------------- */
 }
-
-/*--------------Testimonial--------------*/
-
-/* Untuk Tablets */
-@media (max-width: 1000px) {
-    .testimonial {
-      width: 50%;
-      margin-bottom: 50px;
-    }
-  }
-/* Untuk Smartphone */
-@media(max-width: 670px) {
-  .testimonial {
-      width: 100%;
-      margin-bottom: 50px;
-    }   
-}
-/*--------------Testimonial--------------*/
-
-/*--------------- footer--------------- */
-@media(max-width: 1000px) {
-    .footer-menu {
-        float:left;
-        width: 100%;
-        padding-left: 25px;
-    }
-
-    .message-footer {
-        height :100px;
-    }
-
-    .logo-footer {
-        width:100%;
-        padding-left: 25px;
-    }
-
-}
-
-@media(max-width: 670px) {
-    .logo-footer h2 {
-        font-size: 24px;
-    }
-
-    .message-wrapper {
-        width: 100%;
-        margin-bottom:10px
+  
+  /* -------------------------------------------Untuk Smartphone *--------------------------------------------/
+  @media(max-width: 670px) {
+  /*------------- HEADER -------------*/
+      .btn {
+          width: 100%;
+          text-align: center;
+          margin-bottom: 10px;
+        }
         
-    }
+        .top-wrapper {
+          background-image: none;
+        }
+        .top-wrapper h1 {
+          text-align: center;
+        }
+        .top-wrapper p {
+          text-align: center;
+        }
+        
+        .header-right{
+          display:none;
+        }
+        
+        .menu-icon{
+          display:block;
+        }
+        
+        .top-wrapper h1 {
+          font-size: 24px;
+          line-height: 36px;
+        }
+        
+        .top-wrapper p {
+          font-size: 14px;
+          line-height: 20px;
+        }
+        .fa{
+            display:block;
+        }
+  /*------------- HEADER -------------*/
 
-    .message-wrapper h2 {
-        font-size: 28px;
-    }
+  /*--------------- CONTENT--------------- */
+      .lesson {
+        width: 100%;
+      }  
+  /*--------------- CONTENT--------------- */
+  
+  /*--------------- Fitur--------------- */
+  /*--------------- Fitur--------------- */
 
-    .message-wrapper h3 {
-        font-size: 20px;
-    }
+  /*--------------Testimonial--------------*/
+      .testimonial {
+        width: 100%;
+        margin-bottom: 50px;
+      }   
+  /*--------------Testimonial--------------*/
+  
+  /*--------------- footer--------------- */
+        .logo-footer h2 {
+          font-size: 24px;
+      }
 
+      .message-wrapper {
+          width: 100%;
+          margin-bottom:10px
+          
+      }
+
+      .message-wrapper h2 {
+          font-size: 28px;
+      }
+
+      .message-wrapper h3 {
+          font-size: 20px;
+      }
+  /*--------------- footer--------------- */
 }
-/*--------------- footer--------------- */
-
-/*--------------- CONTENT--------------- */
-
-/* Untuk Tablet */
-@media (max-width: 1000px) {
-    /* Tambahkan CSS untuk lesson */
-    .lesson {
-      width: 50%;
-      margin-bottom: 50px;
-    }
-  }
-
-/* Untuk Smartphones */
-
-/* Tambahkan breakpoint max-width: 670px */
-@media (max-width: 670px) {
-  /* Ubah width milik lesson ke 100% */
-  .lesson {
-    width: 100%;
-  }  
