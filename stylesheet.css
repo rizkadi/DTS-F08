@@ -263,3 +263,13 @@ a {
 
 /*--------------- FOOTER --------------- */
 
+/*--------------- content --------------- */
+.lesson {
+    float: left;
+    padding: 0 15px;
+}
+  
+.lesson img {
+    width: 150px;
+    height: 150px;
+}
