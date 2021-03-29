@@ -155,8 +155,8 @@ header {
 
 /*--------------- fitur layanan --------------- */
 .fitur-wrapper {
-    padding: 80px 10px;
-    margin: 300px;
+    padding: 0;
+    margin: 0;
 }
 
 .heading h2 {
