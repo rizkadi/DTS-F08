@@ -139,6 +139,7 @@ header {
     max-width: 1070px;
     background-color: #f7f7f7;
     text-align: center;
+    position: relative;
   }
 
   .lesson {
@@ -150,6 +151,7 @@ header {
 .lesson-icon img {
     width: 150px;
     height: 150px;
+    position: relative;
 }
 
 /*--------------- content --------------- */
