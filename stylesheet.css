@@ -136,19 +136,14 @@ header {
 /*--------------- content --------------- */
 .lesson-wrapper {
     margin: 100px 0px
-    width: 1070px;
-    height: 200px
-    padding-bottom: 80px;
-    padding-top: 80px
-    padding-left: 5%;
-    padding-right: 5%;
+    max-width: 1070px;
     background-color: #f7f7f7;
     text-align: center;
   }
 
   .lesson {
-    float: right;
-    width: 33.333%;
+    float: left;
+    width: 30%;
     position: relative;
 }
   
