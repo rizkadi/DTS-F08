@@ -35,6 +35,16 @@
   /*--------------- CONTENT--------------- */
 
   /*--------------- Fitur--------------- */
+  @media screen and (max-width: 1000px) {
+    .fitur-list,
+    .fitur-icon {
+      width: 100%;
+      text-align: center;
+    }
+    img {
+      margin: auto;
+    }
+  }
   /*--------------- Fitur--------------- */
 
   /*--------------Testimonial--------------*/
