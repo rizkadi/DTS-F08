@@ -4,7 +4,9 @@
     top-wrapper h1 {
         font-size: 32px;
     }
-    
+    .heading h2 {
+    text-align: center;
+}
     .menu-icon{
         display:none;
       }
@@ -45,6 +47,9 @@
       margin: auto;
     }
   }
+  .heading h2 {
+    text-align: center;
+}
   /*--------------- Fitur--------------- */
 
   /*--------------Testimonial--------------*/
@@ -76,6 +81,9 @@
   /* -------------------------------------------Untuk Smartphone *--------------------------------------------*/
   @media(max-width: 670px) {
  /*------------- HEADER -------------*/
+    .heading h2 {
+    text-align: center;
+}
       .btn {
         width: 100%;
         text-align: center;
