@@ -194,21 +194,6 @@ header {
 /*--------------Testimonial--------------*/
 
 /*--------------- FOOTER --------------- */
-body {
-    margin: 0;
-    
-}
-li {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-}
-
-* {
-    box-sizing: border-box;
-}
 .message-wrapper {
     background-color: #007bff;
     
