@@ -132,6 +132,7 @@ header {
     display:none;
 }
 /*--------------- HEADER --------------- */
+
 /*--------------- content --------------- */
 .lesson-wrapper {
     background-color: #f7f7f7;
@@ -149,8 +150,9 @@ header {
 }
 
 .lesson img {
-    width: 125px;
-    height: 125px;
+    width: 150px;
+    height: 150px;
+    position: relative;
 }
 /*--------------- content --------------- */
 
