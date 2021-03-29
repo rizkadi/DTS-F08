@@ -151,8 +151,8 @@ header {
 }
 
 .lesson img {
-    width: 150px;
-    height: 150px;
+    width: 125px;
+    height: 125px;
     
 }
 /*--------------- content --------------- */
@@ -202,7 +202,7 @@ header {
     background-color: #4CAF50;
   }
   
-  img {
+  .fitur-wrapper img {
     display: block;
     height: auto;
     max-width: 100%;
