@@ -145,14 +145,11 @@ header {
     float: left;
     width: 33.33%;
 }
-.heading {
-    padding-top: 80px;
-    padding-bottom: 50px;
-    color: #5f5d60;
-}
+
 .lesson-icon {
     position: relative;
 }
+
 .lesson-icon img {
     position: relative;
     max-width:100px;
