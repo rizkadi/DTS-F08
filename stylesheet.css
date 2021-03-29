@@ -134,10 +134,8 @@ header {
 /*--------------- HEADER --------------- */
 /*--------------- content --------------- */
 .lesson-wrapper {
-    padding: 80px 10px;
     background-color: #f7f7f7;
     text-align: center;
-    margin-bottom: 150px;
   }
 
 .lesson {
