@@ -140,7 +140,7 @@ header {
     padding-right: 5%;
     background-color: #f7f7f7;
     text-align: center;
-  }
+}
   .lesson {
     float: left;
     width: 33.33%;
@@ -153,7 +153,7 @@ header {
 .lesson-icon {
     position: relative;
 }
-.lesson-icon img{
+.lesson-icon img {
     position: relative;
     max-width:100px;
     height:auto;
@@ -164,11 +164,9 @@ header {
     margin-top: 15px;
     font-size: 15px;
     color: #b3aeb5;
-
+}
 
 /*--------------- content --------------- */
-
-
 
 
 /*--------------- fitur layanan --------------- */
@@ -243,7 +241,7 @@ header {
 .testimonial-icon {
     position: relative;
 }
-.testimonial-icon img{
+.testimonial-icon img {
     position: relative;
     max-width:100px;
     height:auto;
