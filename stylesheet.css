@@ -146,14 +146,17 @@ header {
 }
 
 
+
 .lesson p {
     color: #0c2e60;
 }
 
-.lesson img {
+.lesson-icon img {
     width: 125px;
     height: 125px;
-    
+    position: relative;
+    max-width:100px;
+    height:auto;
 }
 /*--------------- content --------------- */
 
