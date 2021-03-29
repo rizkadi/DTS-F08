@@ -152,6 +152,11 @@ header {
     padding: 20px;
 }
 
+.lesson-icon img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
 
 .lesson p {
     color: #0c2e60;
