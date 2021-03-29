@@ -145,7 +145,6 @@ header {
 
 .lesson {
     float: left;
-    flex: 0 0 33.333333%;
     max-width: 33.333333%;
 }
 
