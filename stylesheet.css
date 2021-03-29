@@ -135,6 +135,7 @@ header {
 
 /*--------------- content --------------- */
 .lesson-wrapper {
+    margin: 100px 0px;
     width: 1070px;
     height: 300px
     padding-bottom: 80px;
