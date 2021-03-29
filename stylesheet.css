@@ -145,6 +145,14 @@ header {
     width: 30%;
 }
 
+.lesson-icon {
+    position: relative;
+    float: left;
+    width: 33.33333%;
+    padding: 20px;
+}
+
+
 .lesson p {
     color: #0c2e60;
 }
@@ -152,7 +160,7 @@ header {
 .lesson img {
     width: 150px;
     height: 150px;
-    position: relative;
+    
 }
 /*--------------- content --------------- */
 
